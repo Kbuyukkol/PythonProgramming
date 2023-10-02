@@ -1,3 +1,8 @@
+day1 = ("Monday")
+day2 = ("Monday",)
+print(type(day1)) # str
+print(type(day2)) #tuple
+
 days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", 1, 2, 3, 4, 5, 6, 7, True, False)
 
 print(type(days))
@@ -30,8 +35,8 @@ print(weekend)
 tuple1 = (1, 2, 3)
 tuple2 = (1, 2, 3)
 
-print( tuple1 == tuple2)
-print( tuple1 is tuple2)
+print(tuple1 == tuple2)
+print(tuple1 is tuple2)
 
 tuple3 = tuple1 + tuple2
 print(tuple3)
@@ -52,7 +57,7 @@ print(days.index('Wednesday'))
 
 numbers = (10, 10, 10, 10, 20, 30, 40, 50, 10)
 
-print( numbers.count(10) )
+print(numbers.count(10))
 
 print('-------------------------')
 
@@ -64,16 +69,14 @@ print('-------------------------')
 for x in range(0, len(days)):
     print(x)
 
-
 print('-------------------------')
-
 
 for x in reversed(range(0, len(days))):
     print(x)
 
 print('-------------------------')
 
-nested_tuple = ( (1, 2, 3), (4, 5, 6, 7,8), (9, 10) )
+nested_tuple = ((1, 2, 3), (4, 5, 6, 7, 8), (9, 10))
 
 print(len(nested_tuple))
 
