@@ -6,8 +6,8 @@ multiline comment
 
 """
 
-print('Cydeo\nSchool')
-print('\tCydeo School')
+print('Python\nSchool')
+print('\tPython School')
 print('\\')
 
 

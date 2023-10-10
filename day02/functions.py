@@ -11,7 +11,7 @@ import numbers
 
 
 def display_message():
-    print('Hello Cydeo')
+    print('Hello Python')
     print('Hello World')
 
 
@@ -100,7 +100,7 @@ def concat(a: str, b, c='', d='', e=''):
     print(f'{a} {b} {c} {d} {e}'.strip())
 
 
-concat('Cydeo', 'School')
+concat('Python', 'School')
 concat('Python', 3, 2.5)
 concat('Python', 3, 2.5, True)
 concat('Python', 3, 2.5, True, False)

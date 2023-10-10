@@ -36,7 +36,7 @@ nums = list(map(lambda x: x * 10, nums))
 
 print(nums)
 
-names = ['Java', 'JAVA', 'java', 'ruby', 'swift', 'CyDeO', 'javaSCRipt']
+names = ['Java', 'JAVA', 'java', 'ruby', 'swift', 'javaSCRipt']
 
 names = list(map(lambda s: str(s).upper(), names))
 
@@ -59,7 +59,7 @@ nums = list(filter(lambda x: x % 5 == 0, nums))
 print(nums)
 
 
-names = ['Java', 'JAVA', 'java', 'ruby', 'swift', 'CyDeO', 'javaSCRipt']
+names = ['Java', 'JAVA', 'java', 'ruby', 'swift', 'javaSCRipt']
 
 # names = [a for a in names if not a.lower().startswith('j')]
 

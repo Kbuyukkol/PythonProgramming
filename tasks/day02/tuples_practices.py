@@ -1,4 +1,4 @@
-words = ('Java', 'Anna', 'python', 'Cydeo', 'Level')
+words = ('Java', 'Anna', 'python', 'Level')
 
 for x in words:
     if x[::-1].lower() == x.lower():

@@ -40,7 +40,7 @@ s6 = s5[7:]  # by default it slices the string from index 7 to the last characte
 print(s6)
 
 
-s7 = 'CYDEO SCHOOL'
+s7 = 'PYTHON SCHOOL'
 # str(reversed(s7))
 
 print('----------------------')
@@ -110,6 +110,6 @@ s = '1'
 print(s.isdigit())
 
 
-s = 'Cydeo School'
+s = 'Python School'
 
 print(s.istitle())

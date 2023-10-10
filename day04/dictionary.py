@@ -7,6 +7,8 @@ employee1['salary'] = 60_000
 
 print(employee1)
 
+
+
 employee2 = {
     'name': 'James',
     'age': 29,
